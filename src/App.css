@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+#playerControls {
+  display: flex;
+  justify-content: center;
+}
+
+.playerButton {
+  display: inline-block;
+  border: none;
+  background-color: white;
+  font-size: 90px;
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #668ad8;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  border: solid 2px #668ad8;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-weight: bold;
+  transition: .4s;
+  font-size: 50px;
+  margin: 5px;
+}
+
+#numbers {
+  width: 100%;
+}
+
+.numberRow {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.guessCorrectComplete {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  height: 50px;
+  color: #009900;
+}
+
+.guessCorrectIncomplete {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  height: 50px;
+  color: #000000;
+}
+
+#guessIncorrect {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  height: 50px;
+  color: red;
+}
+
+#guessArea {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
